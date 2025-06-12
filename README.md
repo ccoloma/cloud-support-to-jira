@@ -1,7 +1,5 @@
 ## License
 
-## License
-
 This project is released under a **dual license** model:
 
 - **LICENSE.txt**: The public license allows inspection and internal testing only.
