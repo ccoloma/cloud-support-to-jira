@@ -1,0 +1,39 @@
+{
+  "debug.openDebug": "openOnSessionStart",
+  "editor.tabSize": 2,
+  "editor.detectIndentation": false,
+  "window.zoomLevel": 1,
+  "editor.renderWhitespace": "none",
+  "editor.wordWrap": "on",
+  "files.exclude": {
+    "**/.git": true,
+    "dist/": true,
+    "node_modules": true,
+    "out": true
+  },
+  "extensions.ignoreRecommendations": false,
+  "workbench.startupEditor": "newUntitledFile",
+  "explorer.confirmDelete": false,
+  "explorer.confirmDragAndDrop": false,
+  "files.defaultLanguage": "typescript",
+  "javascript.updateImportsOnFileMove.enabled": "never",
+  "workbench.editor.enablePreview": false,
+  "editor.suggestSelection": "first",
+  "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+  "editor.renameOnType": true,
+  "editor.formatOnSave": true,
+  "editor.codeActionsOnSave": {
+    "source.fixAll": "explicit",
+    "source.organizeImports": "explicit"
+  },
+  "eslint.validate": ["javascript", "typescript"],
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "debug.javascript.usePreview": true,
+  "eslint.format.enable": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "typescript.preferences.useAliasesForRenames": false,
+  "javascript.preferences.useAliasesForRenames": false
+}

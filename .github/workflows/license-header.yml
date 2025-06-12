@@ -1,0 +1,36 @@
+name: Add license headers
+
+on:
+  pull_request:
+    types: [opened, synchronize]
+
+jobs:
+  add-license:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v3
+        with:
+          persist-credentials: false
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Run license header script
+        run: npx ts-node scripts/add-license-header.ts
+
+      - name: Commit changes (if any)
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          if [ -n "$(git status --porcelain)" ]; then
+            git add .
+            git commit -m "chore: add missing license headers"
+            git push
+          fi

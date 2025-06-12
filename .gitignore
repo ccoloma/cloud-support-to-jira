@@ -1,0 +1,6 @@
+dist/
+.env
+config.yaml
+service-account.json
+state.yaml
+COMMERCIAL-LICENSE.txt

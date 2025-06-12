@@ -1,0 +1,35 @@
+Non-Production License
+
+Copyright (c) 2025 Carlos Coloma Escribano
+
+Permission is hereby granted to any person obtaining a copy of this software and associated documentation files (the "Software") to use, copy, and review the Software strictly for evaluation, testing, or non-production purposes, subject to the following conditions:
+
+1. No Production Use  
+   The Software may not be used, directly or indirectly, in any production environment or in any system intended to serve real users, process live data, or perform business operations, without purchasing a valid commercial license.
+
+2. No Modification or Derivative Works  
+   You may not modify, reverse engineer, translate, adapt, or create derivative works of the Software in whole or in part.
+
+3. No Redistribution  
+   You may not distribute, sublicense, publish, or share the Software, in whole or in part, to any third party.
+
+4. No Commercial Use  
+   You may not use the Software in connection with any commercial activity, including but not limited to consulting, resale, internal business operations, or offering services based on the Software.
+
+5. Confidentiality and Security  
+   You must take reasonable steps to prevent unauthorized access to the Software and protect it from disclosure to third parties.
+
+6. Ownership and Reservation of Rights  
+   The Software is licensed, not sold. All rights not explicitly granted under this license are reserved by the copyright holder.
+
+7. Disclaimer of Warranty  
+   The Software is provided "as is", without warranty of any kind, express or implied, including but not limited to warranties of merchantability, fitness for a particular purpose, and noninfringement.
+
+8. Limitation of Liability  
+   In no event shall the copyright holder be liable for any claim, damages, or other liability, whether in an action of contract, tort, or otherwise, arising from the use or inability to use the Software.
+
+To use this Software in production, commercially, or with support, please contact:
+
+Carlos Coloma Escribano 
+Email: ccescribano@gmail.com
+
